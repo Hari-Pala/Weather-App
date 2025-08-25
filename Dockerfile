@@ -22,7 +22,7 @@ RUN npm run build
 FROM nginx:stable-alpine
 
 # Copy the build output from the builder stage into the Nginx public directory
-COPY --from=builder /app/build /usr/share/nginx/html
+COPY --from=builder /app/dist /usr/share/nginx/html
 
 # Expose port 80 to the outside world
 EXPOSE 80
