@@ -1,3 +1,43 @@
+@media (max-width: 600px) {
+    .weather {
+        padding: 20px;
+        width: 95vw;
+        min-width: unset;
+        max-width: 400px;
+    }
+    .search-bar input {
+        height: 40px;
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    .search-bar img {
+        width: 40px;
+        padding: 10px;
+    }
+    .weather-icon {
+        width: 100px;
+        margin: 20px 0px;
+    }
+    .temperature {
+        font-size: 48px;
+    }
+    .location {
+        font-size: 20px;
+    }
+    .weather-data {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+    .col {
+        font-size: 18px;
+        gap: 8px;
+    }
+    .col img {
+        width: 22px;
+        margin-top: 6px;
+    }
+}
 .weather{
     place-self: center;
     padding: 40px; 
