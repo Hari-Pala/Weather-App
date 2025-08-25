@@ -2,6 +2,9 @@
 # Use a Node.js image to build the app
 FROM node:18-alpine AS builder
 
+# Add a build argument for the API key
+ARG VITE_APP_ID
+
 # Set the working directory
 WORKDIR /app
 
