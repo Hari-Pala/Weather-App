@@ -1,4 +1,5 @@
 **Weather App**
+
 A simple and responsive weather application built with React and Vite.
 It fetches real-time weather data from the OpenWeather API and displays it with intuitive icons and a clean interface.
 
