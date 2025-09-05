@@ -20,10 +20,3 @@ It fetches real-time weather data from the OpenWeather API and displays it with 
 1. Enter the name of a city in the search bar.
 2. View the current weather details including temperature, humidity, and wind speed.
 
-Screenshots
-
-(Add screenshots of your app here if needed)
-
-License
-
-This project is for learning and personal use.
